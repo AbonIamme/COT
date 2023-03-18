@@ -1,0 +1,107 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: "LatoLatinWeb", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #eeefff;
+    /*background-image: url("../img/system/logo.png");*/
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 60%;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-size: 400px;
+    background-blend-mode: soft-light;
+}
+
+body.modal-open-c {
+    overflow: hidden !important;
+}
+
+.nav-logo-container {
+    background: #eeefff; 
+    height: 60px;
+    padding: 4px;
+    float: left;
+}
+.nav-logo-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.nav-brand-name {
+    margin-left: 0 !important;
+    padding: 20px 16px !important;
+}
+
+.home-sections, .db-item-sections {
+    padding: 15px 0;
+}
+
+p {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+input[disabled], select[disabled], textarea[disabled] {
+    cursor: default !important;
+}
+
+.nav-icon {
+    width: 30px;
+}
+
+.login-logo {
+     width: 180px;
+     display: block; 
+     margin: auto; 
+}
+
+.profile-img-container {
+    width: 54px;
+    height: 54px;
+    max-width: 54px;
+    max-height: 54px;
+    overflow: hidden;
+    border-radius: 100000px;
+}
+.student-profile-img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 100000px;
+    display: inline-block;
+}
+
+.profile-img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+ul.breadcrumb {
+    background-color: #eeefff;
+}
+
+.c-p {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+
+@media only screen and (max-width : 480px) {
+    .nav-brand-name {
+        font-size: 14px; 
+        padding: 20px 16px !important;
+        padding-top: 23px !important;
+    }
+}
